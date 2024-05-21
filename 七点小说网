@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小说展示</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .book {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 20px;
+        }
+        .book img {
+            width: 150px;
+            height: 200px;
+            margin-right: 20px;
+        }
+        .book-info {
+            flex: 1;
+        }
+        .book-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .book-description {
+            margin: 10px 0;
+        }
+        .book-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .book-link:hover {
+            background-color: #1c86ee;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>我的小说展示</h1>
+    </div>
+    <div class="container">
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91uwocAMtSL.jpg" alt="小说封面">
+            <div class="book-info">
+                <div class="book-title">To Kill a Mockingbird</div>
+                <div class="book-description">Harper Lee's timeless classic that explores the racial tensions in the American South through the eyes of young Scout Finch.</div>
+                <a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird" class="book-link">阅读更多</a>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg" alt="小说封面">
+            <div class="book-info">
+                <div class="book-title">1984</div>
+                <div class="book-description">George Orwell's dystopian masterpiece, a chilling prophecy about the future that remains ever relevant in our current society.</div>
+                <a href="https://www.goodreads.com/book/show/5470.1984" class="book-link">阅读更多</a>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81vpsIs58WL.jpg" alt="小说封面">
+            <div class="book-info">
+                <div class="book-title">Harry Potter and the Sorcerer's Stone</div>
+                <div class="book-description">J.K. Rowling's debut novel that introduces us to the wizarding world and the adventures of Harry Potter at Hogwarts School of Witchcraft and Wizardry.</div>
+                <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone" class="book-link">阅读更多</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 我的小说展示
+    </div>
+</body>
+</html>
